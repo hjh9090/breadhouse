@@ -1,1 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bara.breadhouse.mapper.MemberMapper">
+
+
+<select id="getMemberSearch" parameterType="String" resultType="int">
+SELECT *
+FROM USER_LIST
+WHERE = ${id}
+</select>
+
+
+</mapper>

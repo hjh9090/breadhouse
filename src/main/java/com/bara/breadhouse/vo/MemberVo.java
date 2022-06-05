@@ -14,7 +14,7 @@ public class MemberVo {
 	
 	
 	public MemberVo() {
-		super();
+		
 	}
 	public MemberVo(String id, String password, String birthday, String age, String gender, String email) {
 		super();
